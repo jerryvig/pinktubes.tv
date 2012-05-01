@@ -1,0 +1,12 @@
+package pinktubes
+
+class VideoRecord {
+    String videoURL;
+    String title;
+    String imgURL;
+    String duration;
+    Integer viewCount;
+    String queryString;
+    static constraints = {
+    }
+}

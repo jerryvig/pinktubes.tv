@@ -1,0 +1,65 @@
+package pinktubes;
+
+import org.zkoss.zul.Button;
+import org.zkoss.zul.Iframe;
+import org.zkoss.zul.Window;
+
+public class SearchPopupButton extends Button {
+    String videoURL;
+    String videoTitle;
+    Window mainWindow;
+
+    String selectedStyle = "font-weight:bold;background-color:#FF0080;";
+    String unSelectedStyle = "font-weight:bold;background-color:#FF69B4;";
+    String hoverStyle = "font-weight:bold;background-color:#FC0FC0;";
+    String selectedHoverStyle = "font-weight:bold;background-color:#000000;color:#FF0080;";
+
+    SearchPopupButton( String _videoURL, String _videoTitle, Window _mainWindow, String _imgURL ) {
+        videoURL = _videoURL;
+        videoTitle = _videoTitle;
+        mainWindow = _mainWindow;
+	setImage( _imgURL );
+	setOrient("vertical");
+	setLabel( _videoTitle );
+	setStyle( unSelectedStyle );
+    }
+
+    public void onClick() {
+	setStyle( selectedStyle );
+	Iframe popupFrame = new Iframe( videoURL );
+	popupFrame.setWidth("100%");
+	popupFrame.setHeight("100%");
+	Window popWindow = new Window();
+        popWindow.setWidth("700px");
+        popWindow.setHeight("600px");
+	mainWindow.appendChild( popWindow );
+	popWindow.appendChild( popupFrame );
+	popWindow.setTitle( videoTitle );
+	popWindow.setBorder("normal");
+	popWindow.setClosable( true );
+	popWindow.setMaximizable( true );
+	// popWindow.setDraggable( "true" );
+	popWindow.setSizable( true );
+	popWindow.setPosition("center");
+	popWindow.doOverlapped();       
+    }
+
+    public void onMouseOver () {
+       if ( getStyle().equals( unSelectedStyle ) ) {
+	  setStyle( hoverStyle );
+       }
+       if ( getStyle().equals( selectedStyle ) ) {
+	  setStyle( selectedHoverStyle );
+       }      
+    }
+ 
+    public void onMouseOut () {
+       if ( getStyle().equals( hoverStyle ) ) {
+	  setStyle( unSelectedStyle );
+       } 
+       if ( getStyle().equals( selectedHoverStyle ) ) {
+	  setStyle( selectedStyle );
+       }
+    }
+    
+}

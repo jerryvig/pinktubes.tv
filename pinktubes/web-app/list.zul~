@@ -1,0 +1,21 @@
+<%@ page import="pinktubes.VideoRecord" %>
+<?xml version="1.0" encoding="UTF-8"?>
+<?page zscriptLanguage="GroovyGrails"?>
+
+<window  border="normal" title="Groovy Test" id="MainWindow"  width="400px">
+<zscript>
+   videoRecords = videoRecord.findAll()
+</zscript>
+<listbox>
+        <listhead>
+                <listheader label="Title"/>
+                <listheader label="Video URL"/>
+                <listheader label="View Count"/>
+        </listhead>
+        <listitem forEach="${videoRecords}">
+                <listcell label="${each.title}"/>
+                <listcell label="${each.videoURL}"/>
+                <listcell label="${each.viewCount}"/>
+        </listitem>
+</listbox>
+</window>

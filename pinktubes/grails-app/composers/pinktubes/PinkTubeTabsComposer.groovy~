@@ -1,0 +1,49 @@
+package pinktubes
+
+import org.zkoss.zkgrails.*;
+import org.zkoss.zk.ui.Component;
+import groovy.sql.Sql;
+
+class PinkTubeTabsComposer extends GrailsComposer {
+
+    def pinkTubeTabs;
+    def pinkTubeTabPanels;
+    def searchHbox;
+
+    def sql = Sql.newInstance("jdbc:mysql://localhost/pinktubes?user=root")
+
+    def afterCompose = { window ->
+        // initialize components here
+        redraw();
+    }
+
+    def redraw() {
+       def searchTagList = SearchTag.list()
+       def imgList = []       
+
+       searchTagList.each {
+          sql.eachRow("SELECT imgURL FROM video_records WHERE query_string='${it.tag}' ORDER BY viewCount DESC LIMIT 1") { row ->
+             imgList.add( row.imgURL );
+          }
+       }
+
+       searchHbox.append {
+         def tagCount = 0
+         searchTagList.each { e ->
+           button(label:e.tag, mold:"trendy", image:imgList[tagCount])
+           tagCount++
+         }
+       }
+       
+    }
+
+    def move(Component dragged) {
+      if (dragged.getParent().getId().equals("rightListBox")) {
+          self.parent.insertBefore(dragged,self.getNextSibling());
+      }           
+      else {
+          self.parent.insertBefore(dragged,self.getNextSibling());
+      }
+    }
+
+}

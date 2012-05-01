@@ -1,0 +1,499 @@
+Welcome to Grails 1.3.5 - http://grails.org/
+Licensed under Apache Standard License 2.0
+Grails home is set to: /usr/local/grails-1.3.5
+
+Base Directory: /home/diggler/Desktop/groovy_testing/pinktubes/pinktubes
+Resolving dependencies...
+Dependencies resolved in 4375ms.
+Running script /usr/local/grails-1.3.5/scripts/ListPlugins_.groovy
+Environment set to development
+Adding theme jars to class loader
+
+Plugins available in the grailsCentral repository are listed below:
+-------------------------------------------------------------
+
+acegi               <0.5.3>          --  Grails Spring Security 2.0 Plugin
+activemq            <0.1>            --  Grails Activemq Plugin
+activiti            <5.0.beta2>      --  Grails Activiti Plugin - Enabled Activiti BPM Suite support for Grails
+address-lookup-zpfour<0.1.1>          --  Provides plugin-interface to Address Lookups via a Semaphore ZP4 HTTPSERV
+akismet             <0.2>            --  Akismet Anti-Spam Plugin
+alfresco            <0.4>            --  Plugin de integracion con Alfresco.
+amazon-s3           <0.8.2>          --  Provides tools to host media assets on Amazon's Simple Storage Service (S3)
+amazonfps           <0.2.4>          --  Amazon Fps plugin is based on the 20080917 version of Amazon FPS Advanced Start
+aop                 <>               --  
+aop-reloading-fix   <0.1>            --  AOP Reloading Fix
+apns                <0.4>            --  Apple Push Notification Service
+app-engine          <0.8.10>         --  Grails AppEngine plugin
+app-info            <0.3>            --  Application Info
+appengine-gorm      <0.1.0>          --  Batch insert, update and delete operation support in Google App Engine
+applet              <0.1>            --  Provide a package-applet task to build, pack and sign Applet jars
+asynchronous-mail   <0.1.5>          --  Asynchronous mail grails plugin
+atac                <0.2>            --  Another Tag Cloud Plugin
+atmosphere          <0.3.1>          --  Grails Atmosphere Plugin
+attachmentable      <0.1.1-SNAPSHOT> --  Attachmentable Plugin
+audit-logging       <0.5.4>          --  adds auditable to GORM domain classes
+audit-trail         <1.2>            --  
+authentication      <2.0.1>          --  Simple, extensible authentication services with signup support
+authorize-net       <0.12>           --  Authorize.net Plugin
+auto-delegator      <0.1>            --  This plugin automatically does delegation
+auto-test           <0.1>            --  Auto test plugin
+autobase            <0.9.2>          --  Automate your database work as much as possible
+autorest            <>               --  
+avatar              <0.3>            --  Grails Avatar Plugin
+axis2               <0.7.0>          --  Adds Web Service support for Grails services using Apaxhe Axis2.
+background-thread   <1.6>            --  Background Thread Plugin
+barcode4j           <0.1>            --  Barcode4j plugin
+bayes               <0.4>            --  This plugin provides functionality to classify text using bayesian classifiers
+bean-fields         <1.0-RC3>        --  Bean Fields - smart tags for command and domain objects
+birt-report         <1.1>            --  Birt Reporting Plugin
+blazeds             <1.0>            --  Grails BlazeDS 4 Integration
+blogger             <0.0.2>          --  Grails Blogger Plug-in
+blueprint           <0.9.1.1>        --  Blueprint CSS framework
+blueprint-css       <0.1>            --  Blueprint Css
+blueprint-jquery-ui <0.2.0>          --  Blueprint Menu and Jquery-ui integration
+bluff               <0.1.1>          --  This plugin adds Bluff library functionality for the application
+blurb               <0.2>            --  Provides tag to render dynamically updateable text in GSP views.
+bosh                <0.1>            --  Grails BOSH Plugin
+br-validation       <0.1>            --  Brazil Validation
+breadcrumbs         <0.5.2>          --  Breadcrumbs
+browser-detection   <0.1>            --  Browser detection
+bubbling            <2.1.2>          --  Bubbling Library YUI Extension
+build-info          <1.1>            --  Build Info
+build-test-data     <1.1.1>          --  Build Test Data Plugin
+burning-image       <0.5.0>          --  Burning Image
+c2d                 <0.1>            --  This plugin adds the ClickToDial functionality to a Grails Web Application using SIP Servlets
+cache               <>               --  
+cache-headers       <1.1.0>          --  Caching Headers Plugin
+cached-resources    <1.0-alpha6>     --  Cached Resources
+cachefilter         <0.5>            --  cache html generated page and binary content
+calendar            <1.2.1>          --  Grails Calendar Plugin
+camel               <0.2>            --  Integration with Apache Camel
+canonical           <0.1>            --  Canonical Tagging Plugin for SEO
+cas-client          <1.1>            --  This plugin provides client integration for JA-SIG CAS
+cassandra           <0.5.4>          --  Cassandra access
+chargify            <0.1>            --  Grails Chargify Plugin
+chiba-web           <0.1>            --  Grails Chiba Web Plugin - Enabled XForms processing in Grails
+circuit-breaker     <0.2>            --  Circuit Breaker Plugin
+ckeditor            <3.4.1.1-SNAPSHOT> --  CKeditor plugin
+clamav              <0.2>            --  
+class-diagram       <0.5.2>          --  Creates a class diagram from grails domain classes
+clickstream         <0.2.0>          --  Clickstream
+clojure             <0.6>            --  Grails Clojure Plugin
+cloud-foundry       <0.2>            --  Cloud Foundry Plugin for Grails
+clover              <3.0.2>          --  Clover Code Coverage for Grails
+cms                 <0.1.7.8>        --  A Simple CMS for Grails
+code-coverage       <1.1.8>          --  Generates Code Coverage reports
+code-editor         <0.2.4>          --  CodeEditor a Web Based IDE For Grails Developers
+codenarc            <0.7>            --  CodeNarc plugin
+coherence           <0.1>            --  Oracle Coherence integration
+cometd              <0.2.2>          --  Ajax push support using CometD
+commentable         <0.7.5>          --  Commentable Plugin
+compress            <0.4>            --  Servlet filter to Compress content.
+confluence          <0.2>            --  Confluence Plugin
+console             <0.2.2>          --  Web-based Groovy Console for Grails
+constraints         <0.5.1>          --  Custom domain constraints plugin
+contact-form        <1.0.7>          --  Grails Contact Form
+contact-me          <0.2.1>          --  An easy ajax contact form
+contentmanager      <>               --  
+converters          <0.3>            --  Provides JSON and XML Conversion for common Objects (Domain Classes, Lists, Maps, POJO)
+cookie              <0.2>            --  Makes dealing with cookies easy
+correios-br         <1.0>            --  Correios BR Grails Plugin
+countries           <0.2>            --  Plugins to deal with contries and continents
+create-domain-uml   <0.5>            --  Create Domain UML - Create UML Class diagrams for Grails Domain Classes
+criteria            <1.6>            --  Criteria (record filtering) plugin
+crowd               <0.4>            --  Plugin that adds support for Atlassian Crowd authentication and authorization to a Grails webapp.
+crypto              <2.0>            --  Encryption plugin for Grails
+csv                 <0.1>            --  Grails CSV Plugin
+cxf                 <0.5.1>          --  CXF plug-in for Grails
+data-table-plugin   <>               --  
+datasources         <0.5>            --  Grails Datasources Plugin.
+date-formatting     <0.2>            --  Date Formatting Functions
+db-stuff            <0.3.0>          --  db schema managment and data import/export. Generate generic schema files and import or export base/seed/test data into your database.
+db-util             <0.4>            --  DB Utils - Embedded
+dbmapper            <0.1.7>          --  Database relation to domain object generator
+dbmigrate           <0.1.5>          --  Database migration tasks
+dbmonster-plugin    <0.5>            --  DBMonster plugin
+dbunit-operator     <1.2>            --  DBUnit Operator
+debug               <1.0.2>          --  Provides debug tools for development mode
+debug-toolbar       <0.1>            --  A debug toolbar for Grails Web Applications
+derby               <0.1>            --  This plugin adds Apache Derby Database to a Grails application.
+devtools            <0.1>            --  This plugin will contain a number of useful development tools.
+directext           <0.1>            --  ExtJS Ext.Direct plugin
+dist-ehcache        <0.5>            --  Distributed Ehcache
+djangotemplates     <>               --  
+dojo                <1.4.3.2>        --  Dojo 1.4.3 for Grails
+domain-expectations <0.6>            --  Expectations Test Plugin for Grails
+domain-schema       <>               --  
+drilldowns          <1.6>            --  Drilldown (summary to detail) plugin
+drools              <0.3>            --  This plugin provides Drools Rule Based Management System functionality to Grails application.
+drools-gorm         <0.4.1>          --  Drools GORM
+dto                 <0.2.4>          --  DTO plugin for Grails
+dwr                 <0.1>            --  This plugin adds DWR capabilies to the services in a Grails application.
+dynamic-config      <0.2>            --  Dynamic-Config-Plugin
+dynamic-controller  <0.2.1>          --  Dynamic Controller Plugin
+dynamic-domain-class<0.1>            --  Grails Dynamic Domain Class Plugin - Create domain class on-the-fly
+dynamic-domain-properties<0.1>            --  Dynamic Domain Properties
+dynamic-help        <0.3>            --  Dynamically add help messages that are editable
+dynamic-jasper      <0.6>            --  Integrates DynamicJasper into Grails
+eastwood-chart      <0.5>            --  This plugin wraps JFreeChart's Eastwood servlet for Grails app
+easyb               <2.0.5>          --  Allows Grails applications to write unit, integration and functional tests. Integrates Grails unit testing features
+easyb-acceptance-test<0.1>            --  Create an 'acceptance' test phase and add easyb and Selenium integration.
+easybtest           <0.2>            --  Plugin summary/headline
+echo2               <0.1>            --  Echo2 capabilities to Grails applications
+eclipse-scripts     <1.0.2>          --  Eclipse settings generator
+email-confirmation  <1.0.4>          --  Email Confirmation
+email-validator     <0.1>            --  Email validator
+excel-import        <0.3>            --  Excel Importer Using Apache POI
+exchange-rates      <1.8>            --  Foreign currency exchange rates using Yahoo!
+executor            <0.2>            --  Concurrency / asynchronous /background process plugin
+export              <0.7>            --  Export functionality
+ext                 <2.0.2>          --  Ext JavaScript Library
+ext-ui              <>               --  
+extended-data-binding<0.4>            --  This plugin extends Grails' data binding possibilities, both for parsing the user input and to present formatted data
+extended-gorm-mappings<0.4>            --  Adds additional mapping options for GORM domain objects
+facebook-connect    <0.2>            --  Facebook Connect
+facebook-graph      <0.4>            --  Facebook graph plugin
+faker               <0.2>            --  Generate fake data
+falcone-util        <1.0>            --  Falcone Util Project
+famfamfam           <1.0.1>          --  Silk icons from famfamfam.com
+fckeditor           <0.9.5>          --  Grails plugin for using FCKeditor rich editing features in a Grails application
+feeds               <1.5>            --  Render RSS/Atom feeds with a simple builder
+file-viewer         <0.1>            --  File Viewer Grails plugin
+filter              <0.2>            --  Dynamic filter plugin
+filterpane          <0.7>            --  Dynamically filter / search domain objects.
+fitnesse            <0.3>            --  Fitnesse Grails Plugin
+fixtures            <1.0.1>          --  Grails Fixtures Plugin
+flash-helper        <0.4>            --  Simplifies and standardizes the process of adding/reading messages in the flash scope
+flash-player        <1.3>            --  Grails TagLib plugin for the JW FLV Media Player
+flex                <0.2>            --  Provides integration between Grails and Flex
+flex-scaffold       <0.2.3>          --  Grails Flex Scaffold (GFS)
+flot                <0.2.2>          --  Grails Flot Plugin
+followable          <0.3>            --  Followable Plugin
+form-helper         <0.2.8>          --  Form Helper
+freemarker          <0.3>            --  FreeMarker Grails Plugin
+fsm                 <0.6.3>          --  Finite State Machine behaviour for domain classes
+func                <1.7>            --  Plugin to make your application ables to call Func (https://fedorahosted.org/func)
+functional-test     <1.2.7>          --  Functional Testing
+functional-test-development<0.1.1>          --  Functional Test Development
+gdsflex             <0.8.3>          --  Integration between Grails and GraniteDS/Flex
+geb                 <0.4>            --  Geb integration for Grails
+gemfire             <1.0.0.M1>       --  Grails Gemfire Plugin
+geoip               <0.2>            --  Grails GeoIP Plugin
+geolocation         <0.1>            --  Geolocation plugin
+german-postal-code  <0.1>            --  Plugin for checking and retrieving German postal codes (PLZ)
+gmetrics            <0.3>            --  An implementation of the GMetrics library (http://gmetrics.sourceforge.net/index.html) to allow analysis of Grails code.
+google-analytics    <0.3>            --  Grails Google Analytics Plugin
+google-chart        <0.5.2>          --  This plugin adds Google Chart API features to Grails applications.
+google-checkout     <0.1>            --  A Grails plug-in that provides integration with Google Checkout
+google-data         <0.1.3>          --  Google Data Java Client Library
+google-visualization<0.2.3>          --  Google Visualization API Plugin
+gorm-couchdb        <0.7.1>          --  Grails CouchDB Plugin
+gorm-hbase          <0.2.4>          --  GORM-HBase Plug-in
+gorm-jpa            <0.7.1>          --  GORM-JPA Plugin
+gorm-labs           <0.8.5>          --  GORM Labs
+gorm-mongodb        <0.5.1>          --  Grails MongoDB plugin
+gparallelizer       <0.3>            --  GParallelizer Plugin
+gpars               <0.1>            --  GPars Plugin
+grails-melody       <0.5>            --  Grails Java Melody Plugin
+grails-multi-tenant-core<1.0.0-SNAPSHOT> --  Multi-Tenant Plugin
+grails-template-engine<0.2>            --  Grails Template Engine
+grails-ui           <1.2-SNAPSHOT>   --  Grails UI
+greenmail           <1.2.1>          --  Greenmail Plugin for Grails
+gridgain            <0.2.2>          --  GridGain Plugin to enable GridGain 2.1 support
+growler             <0.1-ALPHA>      --  Growler
+gsec                <1.0>            --  Basic Grails Security
+gsp-arse            <1.1>            --  Parse scripts, css, special files as GSP
+gss                 <1.0.1>          --  GSS (Groovy Style Sheets)
+gwt                 <0.5.1>          --  The Google Web Toolkit for Grails.
+h2                  <0.2.6>          --  Provide H2 Database Support
+haml                <0.3>            --  haml
+help-balloons       <1.4>            --  Grails TagLib plugin for the HelpBalloon system from Beau Scott
+hibernate-filter    <0.2>            --  Integrates Hibernate filtering into Grails
+hibernate-jpa-provider<0.4>            --  Hibernate JPA Provider Plugin
+hibernate-search    <>               --  
+hibernate-stats     <1.1>            --  Enables Hibernate Statistics capture and exposes an MBean
+i18n-fields         <0.1>            --  i18n Fields
+i18n-gettext        <0.94>           --  I18n gettext plugin for grails
+i18n-templates      <1.1.0.1>        --  I18n Templates
+ibatis              <1.2.1>          --  iBATIS (ibatis.apache.org) support for Grails
+ibm-i               <0.3>            --  Add IBM i support to your environment
+ic-alendar          <0.2.1>          --  This plugin contains a builder to easily convert your event into the iCalendar format
+icefaces            <0.3>            --  ICEfaces - JSF Integration
+icepush             <0.4>            --  ICEpush integration
+image-gallery       <0.1>            --  Image Gallery Plugin
+image-proxy         <0.2>            --  Image proxy for downloading images from other places
+imagezoom           <0.3.5>          --  View high resolution images in a zoomable widget
+include             <0.3>            --  This plugin adds include behaviour to Grails application.
+infinispan          <0.3.3>          --  Grails plugin for the JBoss Infinispan distributed cache.
+invitation-only     <1.0-RC3>        --  Simple way to track and check user-invites by email address
+itunes-service      <0.2.1>          --  iTunes Service Plugin
+iui                 <0.4>            --  iUI for Grails
+ivy                 <2.0.0-rc1>      --  The Ivy Dependency Manager for Grails.
+iwebkit             <0.5>            --  iwebkit plugin
+j2d                 <0.4.2>          --  Enables Java2D rendering using GfxBuilder
+jabber              <0.1>            --  Jabber Plugin
+jaces               <0.1>            --  jAces - Ultimate companion to create database applications. 
+jackrabbit          <>               --  
+janrain             <1.0.2>          --  Janrain Plugin
+jasper              <1.1.3>          --  Easily launch Jasper reports from a Grails application.
+jasypt-encryption   <0.1.1>          --  Plugin summary/headline
+javascript-converter<0.2>            --  Grails Javascript Converter.
+javascript-url-mappings<0.1.1>          --  A Grails plugin to provide client-side reverse URL mappings.
+javascript-validator<0.9>            --  Client Side Javascript Validator
+jawr                <3.3.3>          --  adds Jawr (https://jawr.dev.java.net) functionality to Grails applications.
+jaxrs               <0.4>            --  JSR 311 plugin
+jbosscache          <0.1.9>          --  JBossCache Plugin
+jbpm                <0.1>            --  Jbpm plugin
+jcaptcha            <1.2.1>          --  Grails JCaptcha Plugin
+jcr                 <>               --  
+jdbc-pool           <0.3>            --  Tomcat JDBC Pool plugin
+jetty               <1.2-SNAPSHOT>   --  Jetty Plugin
+jit                 <0.2>            --  Grails JavaScript InfoVis Toolkit Plugin.
+jmock-support       <0.2>            --  JMock Support Plugin for Grails
+jms                 <1.0>            --  JMS integration for Grails
+jmx                 <>               --  
+joda-time           <1.1>            --  Joda-Time Plugin
+jpa                 <0.1.10>         --  Provide standalone JPA functions without GORM
+jqgrid              <3.8.0>          --  JQGrid Plugin
+jqtouch             <>               --  
+jquery              <1.4.3.2>        --  JQuery for Grails
+jquery-calendar     <0.2.3>          --  JQuery Calendar
+jquery-ui           <1.8.4.3>        --  jQuery UI resources
+jquery-ui-lib       <1.8-SNAPSHOT>   --  jQuery UI resources
+jsecurity           <0.4.1>          --  Security support via the JSecurity framework.
+jsf                 <>               --  
+jsf2                <0.1>            --  JSF 2
+jslint              <0.1>            --  JsLint for Grails
+jsunit              <0.7>            --  
+jsword              <0.1>            --  jsword is a bible study/search engine
+jtopen              <0.3>            --  JTOpen plugin
+jttaglib            <0.4>            --  
+junit-web-runner    <0.2.0>          --  Grails JUnit Web Runner Plugin
+ki                  <0.1>            --  Apache Ki Integration for Grails
+lang-selector       <0.2>            --  Language Selector using Grails i18n support.
+laszlo              <1.0.1>          --  OpenLaszlo plugin for Grails
+ldap                <0.8.2>          --  Adds easy to use LDAP connectivity
+ldap-server         <0.1.8>          --  Embedded LDAP Server Plugin
+license             <0.2>            --  This plugin provides license management to Grails application.
+liferay-exploded    <0.8>            --  Plugin that creates fast, temporary deployment artifacts for Liferay.
+liquibase           <1.9.3.5>        --  LiquiBase Database Refactoring for Grails
+liquibase-runner    <1.2>            --  Liquibase Migration Runner
+localizations       <1.4>            --  Localizations (messages) plugin
+log4j-xml           <0.2>            --  Allow configure log4j by Groovy/XML in Grails 1.1
+logdigger-connector <1.0>            --  LogDigger Connector for Grails
+logging             <0.1>            --  Grails Dynamic Logging Plugin
+lookups             <1.4>            --  Application lookup (reference tables) plugin
+magic-numbers       <0.2.3>          --  Plugin that adds numerous time calculation convenience methods to the Integer class.
+mail                <0.9>            --  Provides Mail support to a running Grails application
+mapstraction        <>               --  
+markdown            <0.2.1>          --  Grails Markdown Plugin
+maven-publisher     <0.6>            --  A plugin that allows you to publish and/or resolve Grails application and plugins to Maven repositories without needing to use Maven directly
+menus               <1.7>            --  Menus plugin
+message-digest      <1.1>            --  MessageDigest
+message-reports     <0.1>            --  Message Reports
+min-criteria        <0.1.1>          --  Validates domain minimum criteria
+modalbox            <0.4>            --  This plugin adds the ModalBox to your Grails applications.
+modproxybalancer    <0.1>            --  Manage an Apache mod_proxy_balancer LoadBalancer during a clusterwide application redeployment
+mondrian            <0.1>            --  This plugin installs Pentaho Mondrian into your Grails application.
+mongodb-tools       <0.1.2>          --  MongoDB Tools
+monster             <0.1>            --  Monster ID avatar generation
+mootools            <0.1.3>          --  Provides integration with the Mootools toolkit http://mootools.net, a light OO javascript framework.
+morph-deploy        <0.1>            --  Deploy applications to Mor.ph hosting
+multi-select        <0.2>            --  Multi select Drop down
+multi-tenant        <1.0.0>          --  Multi-Tenant Plugin
+multi-tenant-acegi  <0.4>            --  Multi-Tenant Acegi Integration
+multi-tenant-core   <1.0.0-SNAPSHOT> --  Multi-Tenant Plugin(Core)
+multi-tenant-ehcache<1.0.0-SNAPSHOT> --  Plugin to support EH Cache 2nd level support when running in multiple database mode
+mysql-connectorj    <5.1.12>         --  MySQL Connector/J
+nadd-neutralizer    <0.3>            --  N.A.D.D Neutralizer
+navigation          <1.1.1>          --  Site Menu Navigation
+neo4j               <0.3.1-SNAPSHOT> --  Integration of Neo4j in Grails
+nimble              <0.4-SNAPSHOT>   --  Nimble
+notify-io           <1.2>            --  Notify.io Plugin
+ntlm-auth           <0.5>            --  NTLM HTTP Authentication
+oauth               <0.10>           --  Adds OAuth capability to Grails apps
+ofchart             <0.6>            --  Plugin summary/headline
+ohloh               <>               --  
+one-time-data       <1.0>            --  A deferred data concept that replaces flash scope to work safely with multiple concurrent requests
+open-social         <0.1>            --  open Social Plugin
+openid              <0.2>            --  OpenID
+opensso             <>               --  
+osgi                <0.2.1>          --  OSGi integration for Grails applications
+osworkflow          <0.1>            --  OSWorkflow Plugin
+p6spy               <0.5>            --  This plugin adds p6spy to your application
+paypal              <0.6>            --  A Grails plug-in that provides integration with Paypal's Instant Payment Notfication (IPN) system
+paypal-pro          <0.2>            --  Pay Pal Pro
+pdf                 <0.6>            --  Provides a simple way to generate PDFs from web pages
+pdf-viewer          <0.1>            --  Google Doc Pdf Viewer
+perf4j              <0.1.1>          --  Perf4J Integration Plugin
+php                 <0.1.5>          --  Support PHP in your Grails application with the Quercus PHP engine
+picasa              <0.6.6>          --  Grails Picasa Plug-in
+pluginator          <0.1.1>          --  This plugin adds ability to hook into application's runtime configuration like if it is a plugin by itself.
+pluto               <0.2>            --  Pluto runtime
+portlets            <0.7>            --  Portlets Plugin
+portlets-liferay    <0.2>            --  Liferay Portal Portlets Plugin
+portlets-pluto      <0.2>            --  Apache Pluto portlets Plugin
+post-code           <1.0>            --  Provides a service for getting lat/lon from UK postcodes and calculating distance between two postcode centres
+postmark            <0.2>            --  Provides integration with Postmark mail service
+pretty-date         <0.1>            --  Make date object print out human-readable relative timestamp
+pretty-size         <0.2>            --  Pretty-size plugin
+pretty-time         <0.3>            --  Pretty-time plugin
+profiler            <0.3>            --  Profiles a Grails application on demand.
+promo               <0.1>            --  
+protobuf            <0.2>            --  Adds Protocol Buffers support
+qrcode              <0.1>            --  QR Code plugin
+quartz              <0.4.2>          --  This plugin adds Quartz job scheduling features to Grails application.
+rabbitmq            <0.2>            --  Rabbit MQ
+radeox              <0.1>            --  A plugin for the Radeox Wiki-render engine to allow easy markup and cross-linking.
+rateable            <0.6.2>          --  Rateable Plugin
+rdfa                <0.1.1>          --  Grails/RDFa plugin
+recaptcha           <0.5.0>          --  This plugin adds ReCaptcha and Mailhide support to Grails.
+redis               <1.0.0.M2>       --  Redis GORM
+ref-code            <0.3.0>          --  
+relationally-scoped-query<1.0>            --  RelationalScope
+reloadable-config   <0.1>            --  Grails Config Reloadable plugin
+remote-constraints  <0.4.3>          --  Remote constraints
+remote-control      <1.0-alpha-2>    --  Remote Control
+remote-pagination   <0.2.3>          --  Remote Pagination Plugin
+remoting            <1.1>            --  Adds easy-to-use server-side and client-side RPC support.
+rendering           <0.3>            --  Grails Rendering
+resources           <1.0-alpha12>    --  Resources
+resources-first     <0.3>            --  First match static resources then match UrlMappings
+rest                <0.3>            --  REST client facilities
+restore-state       <1.1>            --  Restore State Plugin
+richui              <0.8>            --  Provides a set of AJAX components
+runtime-logging     <0.3>            --  Grails Runtime Logging Plugin
+sakai               <0.4.2>          --  Deploy Grails apps inside the Sakai collaboration and learning environment.
+sanitizer           <0.3>            --  Grails Markup Sanitizer Plugin
+scaffold-tags       <0.7.3>          --  Adds tags to support fully-customizable & dynamic scaffolding
+scala               <0.5>            --  Scala Plugin
+scoped-proxy        <0.2>            --  Scoped Proxy Plugin
+screen-wiz          <0.3>            --  Database Driven Screen Wizard
+screencasts         <0.4>            --  Screencasts Grails Plugin
+searchable          <0.5.5.1>        --  Adds rich search functionality to Grails domain models. This version is recommended for JDK 1.5+
+searchable14        <0.5.1>          --  Adds rich search functionality to Grails domain models. This version is recommended for JDK 1.4
+selenium            <0.8>            --  
+selenium-rc         <1.0.2>          --  Selenium RC Plugin
+session-temp-files  <1.0>            --  Session Temp Files
+settings            <1.4>            --  Application settings (global constants) plugin
+sharding            <0.3>            --  Grails Shards Plugin
+shiro               <1.1-SNAPSHOT>   --  Apache Shiro Integration for Grails
+shopping-cart       <0.8.2>          --  Shopping cart plugin
+simple-blog         <0.1.4>          --  Simple Blog
+skin-loader         <1.0.7>          --  Skin Loader for the Grails Web Framework
+skinnable           <0.2>            --  This plugin adds skinnable support to Grails application.
+smartclient         <>               --  
+smartgwt            <0.1.1>          --  Add SmartGWT support for Grails
+social-bookmarks    <0.2>            --  This plugin adds social bookmarking links to Grails applications.
+solr                <0.2>            --  Grails Solr Plugin
+solrj               <0.1>            --  SolrJ Plugin
+sound-manager       <0.4>            --  Grails SoundManager Plugin
+sparkline           <0.1>            --  Plugin summary/headline
+sparklines          <0.1>            --  This plugin adds jQuery sparkline library functionality to your application.
+spock               <0.4-groovy-1.6> --  Spock Plugin - spockframework.org
+spreadshirt         <0.2>            --  Spreadshirt API
+spreedly            <0.1>            --  Spreedly payment service integration for Grails.
+spring-events       <1.0>            --  Grails Spring Events Plugin
+spring-security-acl <1.0.1>          --  ACL support for the Spring Security plugin.
+spring-security-cas <1.0.1>          --  Jasig CAS support for the Spring Security plugin.
+spring-security-core<1.0.1>          --  Spring Security Core Plugin
+spring-security-ldap<1.0.1>          --  LDAP authentication support for the Spring Security plugin.
+spring-security-openid<1.0>            --  OpenID authentication support for the Spring Security plugin.
+spring-security-ui  <0.1.2>          --  User interface extensions for the Spring Security plugin.
+springcache         <1.2.1>          --  Spring Cache Plugin
+springmvc           <0.1>            --  Grails Spring MVC Controller Plugin.
+springws            <0.5.0>          --  This plugin adds contract driven web service capabilities to a Grails application.
+spy                 <0.2>            --  Spy into Grails internals
+stark-security      <0.4.3>          --  A robust, convention-based implementation of Spring Security for Grails
+static-resources    <0.5.1>          --  
+stella              <1.3>            --  Grails-Stella integration
+step2               <0.1>            --  Google Step2 (http://code.google.com/p/step2/)
+stitches            <0.2>            --  Provides a structured content repository
+stories             <0.21>           --  A BDD plugin for grails
+struts1             <1.3.8.2>        --  Provides integration between Grails and the Struts 1 framework
+sublog              <0.5.3>          --  Sublog: Enhanced Logging
+sumatra             <0.2>            --  Sumatra: Test JavaScript from Groovy
+super-file-upload   <0.4>            --  Super file upload
+symmetricds         <2.1.0>          --  SymmetricDS Plugin - adds relational database synchronization capability to a Grails application
+syntax-highlighter  <0.1.4>          --  Syntax Highlighter Plugin
+tagcloud            <0.3>            --  Tagcloud
+taggable            <0.6.2>          --  Taggable Plugin
+taxonomy            <1.0>            --  Taxonomy Plugin
+terracotta          <0.1>            --  Simple Tarracotta Integration
+test-template       <1.3.2>          --  Test Templates
+testing             <0.5>            --  Unit testing plugin
+testing-labs        <0.4.0>          --  Testing Labs
+tiny-mce            <0.1.2>          --  TinyMce
+tinyurl             <0.1>            --  TinyUrl Plugin
+tooltip             <0.6>            --  Tooltip Plugin
+transparent-message <0.1>            --  Transparent Message Plugin allows transparent messages to show non-modal notifications
+triggers            <>               --  
+twitter             <0.2>            --  Grails Twitter Plugin.
+twitter-panel       <0.1>            --  Twitter Panel
+uber-scaffolding    <0.1.1>          --  UberScaffolding Plugin
+ui-performance      <1.2.2>          --  Grails UI Performance Plugin
+uiregression        <0.1>            --  Plugin summary/headline
+url-mappings-generator<0.1>            --  Plugin summary/headline
+urlreversi          <1.0>            --  This plugin reverses a shortened url - for example http://tinyurl.com/5d4 or http://ow.ly/ZDrQ.
+urlrewrite          <0.1>            --  Tuckey's Url Rewrite Filter
+vaadin              <1.2.2>          --  Vaadin Grails Plugin
+validation-field    <0.2>            --  ValidationField Plugin, input form and select html tags that recognize when there are domain errors and swow it automatically
+viaboxx-dbmigrate   <1.2.9>          --  viaboxx-dbmigrate: integrate agimatec-tools/dbmigrate into your grails project
+wave                <0.4>            --  Google Wave API plugin for Grails
+web-search          <0.1>            --  Web Search Plugin
+web-snaps           <0.1>            --  WebCam Snaps on the WebPage
+webdav              <0.3>            --  Webdav plugin for grails
+webdriver           <0.2.3>          --  WebDriver Functional Testing Plugin
+webpurify           <0.1>            --  Web Purify Services Integration
+webtest             <3.0.0>          --  A plug-in that provides functional testing for Grails using Canoo Web Test
+webtest-coverage    <0.6>            --  Webtest coverage
+webthumbs           <0.1>            --  Create preview image urls for websites
+webxml              <1.2>            --  Create useful additions to web.xml
+weceem              <0.9.2>          --  Weceem CMS
+weceem-acegi        <0.1.2>          --  A plugin to add authentication/user management to weceem
+wicket              <1.3.0-SNAPSHOT> --  Provides integration between Grails and the Wicket framework
+wikitext            <0.1.2>          --  Grails WikiText Plugin
+woopra              <1.0.3>          --  Woopra Analytics Plugin
+wordpress           <0.2.3>          --  Wordpress Plugin
+ws-client           <1.0>            --  Web Service Client
+xfire               <0.8.1>          --  Add Web Service support for Grails services using XFire.
+xml-validator       <0.1.1>          --  Validate request.XML against an xml schema
+xmlrpc              <0.1>            --  This plugin adds XML RPC functionality to GRAILS
+xmpp                <0.1>            --  Grails XMPP Plugin
+xtemplates          <0.1>            --  Extensible (eXtreme) Templates
+xwiki-rendering     <0.1>            --  Provides XWiki Rendering in Grails
+yui                 <2.7.0.1>        --  Yahoo! User Interface Library (YUI)
+yui3                <0.1.10>         --  Provide YUI3 and YUI2 JavaScript Library in an unobstrusive way
+zeit                <0.2.1>          --  Callback scheduler
+zeroconf            <1.0>            --  Adds zeroconf/bonjour registration of your app and a service for service discovery registration
+zipped-resources    <1.0-alpha5>     --  Zipped Resources
+zk                  <1.0-RC2>        --  ZKGrails: ZK plugin for Grails
+zk-ee               <1.0-RC2>        --  Enterprise Addons for ZK plugin for Grails
+zoo-keeper          <0.1>            --  Grails ZooKeeper Helper
+
+
+Plugins available in the grailsCore repository are listed below:
+-------------------------------------------------------------
+
+dummy               <>               --  
+hibernate           <1.3.5>          --  Hibernate for Grails
+tomcat              <1.3.5>          --  Apache Tomcat plugin for Grails
+webflow             <1.3.5>          --  Spring Web Flow Plugin
+
+
+Plug-ins you currently have installed are listed below:
+-------------------------------------------------------------
+
+bubbling            2.1.2            --  Bubbling Library YUI Extension
+grails-ui           1.2-SNAPSHOT     --  Grails UI
+hibernate           1.3.5            --  Hibernate for Grails
+tomcat              1.3.5            --  Apache Tomcat plugin for Grails
+yui                 2.7.0.1          --  Yahoo! User Interface Library (YUI)
+zk                  1.0-RC2          --  ZKGrails: ZK plugin for Grails
+
+To find more info about plugin type 'grails plugin-info [NAME]'
+
+To install type 'grails install-plugin [NAME] [VERSION]'
+
+For further info visit http://grails.org/Plugins
+

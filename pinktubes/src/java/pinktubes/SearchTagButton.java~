@@ -1,0 +1,25 @@
+package pinktubes;
+
+import org.zkoss.zul.Button;
+
+public class SearchPopupButton extends Button {
+    String buttonLabel;
+
+    SearchTagButton( String _buttonLabel ) {
+        buttonLabel = _videoURL;
+       
+    }
+
+    public void onClick() {
+       
+    }
+
+    public void onMouseOver () {
+        
+    }
+ 
+    public void onMouseOut () {
+        
+    }
+    
+}

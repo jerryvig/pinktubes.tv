@@ -1,0 +1,3 @@
+# PinkTubes Scrape
+56 8 * * * /home/diggler/Desktop/groovy_testing/pinktubes/RunScrapePinkTubes.bash  > /root/PinkTubes.log
+

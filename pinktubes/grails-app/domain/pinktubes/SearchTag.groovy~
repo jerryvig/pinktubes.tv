@@ -1,0 +1,14 @@
+package pinktubes
+
+class SearchTag {
+
+    String tag;
+    static constraints = {
+    }
+    static mapping = {
+       table 'search_tags_ii'
+       columns {
+         tag column:'search_tag'
+       }
+    }
+}

@@ -1,0 +1,35 @@
+package pinktubes;
+
+import org.zkoss.zul.Button;
+import org.zkoss.zul.Iframe;
+import org.zkoss.zul.Window;
+
+public class SearchPopupButton extends Button {
+    String videoURL;
+    String videoTitle;
+
+    SearchPopupButton( String _videoURL, _videoTitle ) {
+        videoURL = _videoURL;
+        videoTitle = _videoTitle;
+    }
+
+    public void onClick() {
+	setStyle( "font-weight:bold;background-color:#FF0080;" );
+	Iframe popupFrame = new Iframe( videoURL );
+	popupFrame.setWidth("800px");
+	popupFrame.setHeight("700px");
+	Window popWindow = new Window();
+	mainWindow.appendChild( popWindow );
+	popWindow.appendChild( popupFrame );
+	popWindow.setTitle( videoTitle );
+	popWindow.setBorder( "normal" );
+	popWindow.setClosable( true );
+	popWindow.setMaximizable( true );
+	// popWindow.setDraggable( "true" );
+	popWindow.setSizable( true );
+	popWindow.setPosition( "center" );
+	popWindow.doOverlapped();
+
+    }
+  
+}

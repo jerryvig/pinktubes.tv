@@ -1,0 +1,23 @@
+package pinktubes
+
+class PinkTubeSite {
+
+    Integer id;
+    String url;
+    String name;
+    String domain;
+    Integer alexaRank;
+    Integer alexaUSRank;
+
+    static constraints = {
+    }
+    static mapping = {
+      table 'pink_tube_sites'
+      id column:'pink_tube_site_id'
+      url column:'url'
+      name column:'name'
+      domain column:'domain'
+      alexaRank column:'alexa_rank'
+      alexaUSRank column:'alexa_us_rank'
+    }
+}

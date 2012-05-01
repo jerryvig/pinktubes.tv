@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" ?>
+<?variable-resolver class="org.zkoss.zkplus.spring.DelegatingVariableResolver"?>
+<?page zscriptLanguage="GroovyGrails"?>
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:h="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+    <style>
+      .z-button-over { background-color:#FF0000; }
+    </style>
+    <html><![CDATA[<body style="background-color:#FF0080;">]]></html>
+    <window apply="pinktubes.PinkTubeTabsComposer" id="mainWindow" closable="true" style="background-color:#FF0080;">     
+      <tabbox id="pinkTubeTabs" height="900px" mold="accordion">
+        <tabs>
+          <tab id="hotPinkTubesTab" label="PinkTubes.tv" style="font-weight:bold;color:#FFFFFF;" />
+          <tab id="searchTab" label="Search" style="font-weight:bold;color:#000000;" />
+          <tab id="pinkTubeSites" label="Pink Tube Sites" style="font-weight:bold;color:#000000;" />
+          <tab id="myFavoritePinks" label="My Favorite Pinks" style="font-weight:bold;color:#000000;" />
+        </tabs>
+        <tabpanels id="pinkTubeTabPanels">
+          <tabpanel id="hotPinkTubesTabpanel" style="background-color:#007FFF;">
+            <div id="hotPinkHomeDiv" align="center">
+              <label value="PinkTubes.tv: Tagline Here" style="font-weight:bold;font-size:22pt;align:center;color:#FFC0CB;"/><h:br/>
+            </div>
+            <div id="hotPinkResultsDiv" style="width:100%;height:100%;overflow:auto;"></div>  
+          </tabpanel>
+          <tabpanel id="searchTabpanel" style="background-color:#007FFF;">
+            <div id="searchDiv" align="center">
+             <label value="Select one or two of the category tags below to search for videos in those categories." style="font-weight:bold;font-size:18pt;align:center;color:#FFC0CB;"/><h:br/>
+            </div>
+            <div id="searchResultsDiv" style="width:100%;height:100%;overflow:auto;"></div>  
+          </tabpanel>
+          <tabpanel id="pinkTubeSitesTabpanel" style="background-color:#007FFF;">
+            <tabbox width="100%" height="100%">
+              <tabs id="pinkTubeSiteTabs"/>
+              <tabpanels id="pinkTubeSiteTabpanels"/>
+            </tabbox>
+          </tabpanel>
+          <tabpanel id="myFavoritePinksTabpanel" style="background-color:#007FFF;">My Favorite pinks panel.</tabpanel>
+        </tabpanels>
+      </tabbox>
+    </window>
+    <html><![CDATA[</body>]]></html>
+</zk>

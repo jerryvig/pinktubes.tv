@@ -1,0 +1,10 @@
+package pinktubes;
+
+class HotPinkButton extends Button {
+   def label;    
+
+   HotPinkButton( _label ) {
+      label = _label;
+   }
+
+}
